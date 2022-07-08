@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class InterestCalculator {
     public static void main(String[] args) {
         double myMoney;
-        double month;
+        int  month;
         double interestRate;
-        double totalInterest = 0.0;
+        double totalInterest;
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter investment amount:");
         myMoney = scanner.nextDouble();
         System.out.println("Enter number of months:");
-        month = scanner.nextDouble();
+        month = scanner.nextInt();
         System.out.println("Enter annual interest rate in percentage:");
         interestRate = scanner.nextDouble();
 
