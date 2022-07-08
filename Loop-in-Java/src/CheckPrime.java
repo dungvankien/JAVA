@@ -10,7 +10,7 @@ public class CheckPrime {
         myNumber = scanner.nextInt();
 
         if (myNumber > 1) {
-            for (int i = 2; i < myNumber; i++) {
+            for (int i = 2; i < Math.sqrt(myNumber); i++) {
                 if (myNumber % i == 0) {
                     flag = false;
                     break;
