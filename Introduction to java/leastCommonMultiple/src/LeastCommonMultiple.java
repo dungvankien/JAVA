@@ -21,7 +21,7 @@ public class LeastCommonMultiple {
                 }
                 common = common + 1;
             }
-            while (common < (Math.pow(2, 31) - 1));
+            while (common <= (number1*number2*number3));
         } else if (number2 > number3) {
             common = number2;
             do {
@@ -30,7 +30,7 @@ public class LeastCommonMultiple {
                 }
                 common = common + 1;
             }
-            while (common < (Math.pow(2, 31) - 1));
+            while (common <= (number1*number2*number3));
         } else {
             common = number3;
             do {
@@ -39,7 +39,7 @@ public class LeastCommonMultiple {
                 }
                 common = common + 1;
             }
-            while (common < (Math.pow(2, 31) - 1));
+            while (common <= (number1*number2*number3));
         }
         System.out.println("Least Common Multiple " + "1st: " + number1 + "  2nd: " + number2 + "  3rd: " + number3 + "  Result: " + common);
     }
