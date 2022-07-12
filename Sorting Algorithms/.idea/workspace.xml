@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef0cc959-7a87-4100-b9b9-298ae73485a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InsertionSortFuntion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Introduction to java/conversion-money/out/production/conversion-money/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -46,7 +46,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.InsertionSort">
+  <component name="RunManager" selected="Application.InsertionSortFuntion">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BubbleSort" />
       <module name="Sorting Algorithms." />
@@ -56,6 +56,13 @@
     </configuration>
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InsertionSort" />
+      <module name="Sorting Algorithms." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSortFuntion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InsertionSortFuntion" />
       <module name="Sorting Algorithms." />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSortFuntion" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.RunningProgramBubbleSort" />
@@ -93,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657609160716</updated>
       <workItem from="1657609163692" duration="1135000" />
-      <workItem from="1657610353827" duration="9537000" />
+      <workItem from="1657610353827" duration="10995000" />
     </task>
     <servers />
   </component>
