@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef0cc959-7a87-4100-b9b9-298ae73485a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RunningProgramBubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Introduction to java/conversion-money/out/production/conversion-money/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RunningProgramBubbleSort">
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BubbleSort" />
       <module name="Sorting Algorithms." />
@@ -62,8 +61,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SelectionSort" />
+      <module name="Sorting Algorithms." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.RunningProgramBubbleSort" />
         <item itemvalue="Application.BubbleSort" />
       </list>
@@ -78,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657609160716</updated>
       <workItem from="1657609163692" duration="1135000" />
-      <workItem from="1657610353827" duration="2149000" />
+      <workItem from="1657610353827" duration="5038000" />
     </task>
     <servers />
   </component>
