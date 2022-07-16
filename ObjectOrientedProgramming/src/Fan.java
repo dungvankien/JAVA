@@ -6,7 +6,12 @@ public class Fan {
     private boolean on = false;
     private double radius = 5;
     private String color = "Blue";
-
+    public void getOff(){
+        this.on=false;
+    }
+    public void getOn(){
+        this.on=true;
+    }
     public int getSLOW() {
         this.on = true;
         return SLOW;
