@@ -191,6 +191,23 @@
 										},
 										{
 											"_type": "UMLOperationView",
+											"_id": "AAAAAAGCKGQqKeDXmqE=",
+											"_parent": {
+												"$ref": "AAAAAAGCJU72GqeMlxM="
+											},
+											"model": {
+												"$ref": "AAAAAAGCKGQqEeDUvQg="
+											},
+											"font": "Arial;13;0",
+											"left": 133,
+											"top": 187,
+											"width": 239,
+											"height": 13,
+											"text": "+Circle(double radius, String color)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
 											"_id": "AAAAAAGCJVQyJqgOoz4=",
 											"_parent": {
 												"$ref": "AAAAAAGCJU72GqeMlxM="
@@ -200,7 +217,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 133,
-											"top": 187,
+											"top": 202,
 											"width": 239,
 											"height": 13,
 											"text": "+getRadius(): double",
@@ -217,7 +234,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 133,
-											"top": 202,
+											"top": 217,
 											"width": 239,
 											"height": 13,
 											"text": "+setRadius(double radius): void",
@@ -234,7 +251,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 133,
-											"top": 217,
+											"top": 232,
 											"width": 239,
 											"height": 13,
 											"text": "+getColor(): String",
@@ -251,7 +268,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 133,
-											"top": 232,
+											"top": 247,
 											"width": 239,
 											"height": 13,
 											"text": "+setColor(String color): void",
@@ -268,7 +285,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 133,
-											"top": 247,
+											"top": 262,
 											"width": 239,
 											"height": 13,
 											"text": "+getArea(): double",
@@ -303,7 +320,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 133,
-											"top": 262,
+											"top": 277,
 											"width": 239,
 											"height": 13,
 											"text": "+toString(): String",
@@ -314,7 +331,7 @@
 									"left": 128,
 									"top": 167,
 									"width": 249,
-									"height": 113
+									"height": 128
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -508,6 +525,23 @@
 									"subViews": [
 										{
 											"_type": "UMLOperationView",
+											"_id": "AAAAAAGCKG5O8ODpRfo=",
+											"_parent": {
+												"$ref": "AAAAAAGCJU8Euqe1DGw="
+											},
+											"model": {
+												"$ref": "AAAAAAGCKG5O5+DmUVI="
+											},
+											"font": "Arial;13;0",
+											"left": 117,
+											"top": 437,
+											"width": 300.2568359375,
+											"height": 13,
+											"text": "+Cylinder(double radius, double height)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
 											"_id": "AAAAAAGCJVpEdahhBpc=",
 											"_parent": {
 												"$ref": "AAAAAAGCJU8Euqe1DGw="
@@ -517,7 +551,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 117,
-											"top": 437,
+											"top": 452,
 											"width": 300.2568359375,
 											"height": 13,
 											"text": "+Cylinder(double radius, double heigh, String colort)",
@@ -534,7 +568,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 117,
-											"top": 452,
+											"top": 467,
 											"width": 300.2568359375,
 											"height": 13,
 											"text": "+getHeight(): double",
@@ -551,7 +585,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 117,
-											"top": 467,
+											"top": 482,
 											"width": 300.2568359375,
 											"height": 13,
 											"text": "+setHeight(double height): voild",
@@ -568,7 +602,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 117,
-											"top": 482,
+											"top": 497,
 											"width": 300.2568359375,
 											"height": 13,
 											"text": "+getVolume(): double",
@@ -585,7 +619,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 117,
-											"top": 497,
+											"top": 512,
 											"width": 300.2568359375,
 											"height": 13,
 											"text": "+toString(): String",
@@ -596,7 +630,7 @@
 									"left": 112,
 									"top": 432,
 									"width": 310.2568359375,
-									"height": 83
+									"height": 98
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -800,6 +834,34 @@
 						},
 						{
 							"_type": "UMLOperation",
+							"_id": "AAAAAAGCKGQqEeDUvQg=",
+							"_parent": {
+								"$ref": "AAAAAAGCJU72GKeD9Rg="
+							},
+							"name": "Circle",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGCKGSz5ODiYoE=",
+									"_parent": {
+										"$ref": "AAAAAAGCKGQqEeDUvQg="
+									},
+									"name": "double radius",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGCKGSz5ODjrJk=",
+									"_parent": {
+										"$ref": "AAAAAAGCKGQqEeDUvQg="
+									},
+									"name": "String color",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
 							"_id": "AAAAAAGCJVQyIKgLpmM=",
 							"_parent": {
 								"$ref": "AAAAAAGCJU72GKeD9Rg="
@@ -986,6 +1048,34 @@
 						}
 					],
 					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGCKG5O5+DmUVI=",
+							"_parent": {
+								"$ref": "AAAAAAGCJU8Euaes0F0="
+							},
+							"name": "Cylinder",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGCKG7q1ODyjeo=",
+									"_parent": {
+										"$ref": "AAAAAAGCKG5O5+DmUVI="
+									},
+									"name": "double radius",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGCKG7q1ODzgIo=",
+									"_parent": {
+										"$ref": "AAAAAAGCKG5O5+DmUVI="
+									},
+									"name": "double height",
+									"type": ""
+								}
+							]
+						},
 						{
 							"_type": "UMLOperation",
 							"_id": "AAAAAAGCJVpEbaheF+s=",
