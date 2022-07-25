@@ -1,0 +1,5 @@
+package classAnimalAndInterfaceEdible;
+
+public abstract class Fruit implements Edible {
+
+}
