@@ -1,6 +1,8 @@
 package comparable;
 
-public class Circle extends Shape{
+import interfaceResizeable.Resizeable;
+
+public class Circle extends Shape implements Resizeable {
     private double radius = 1.0;
 
     public Circle() {
@@ -37,5 +39,11 @@ public class Circle extends Shape{
                 + getRadius()
                 + ", which is a subclass of "
                 + super.toString();
+    }
+
+    @Override
+    public void resize(double percent) {
+        System.out.println("Area Before: " + getArea());
+        System.out.println("Percent: "+percent+ "%. Area after: "+getArea()*percent);
     }
 }
